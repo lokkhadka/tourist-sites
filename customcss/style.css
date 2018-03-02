@@ -1,14 +1,15 @@
+
 body html{
     margin: 0;
     padding: 0;
 }
 
-.backgroundimg{
+.jumbotron{
     background-image: url('../image/image1.PNG');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 550px;
     width: 100%;
 }
 
@@ -26,6 +27,7 @@ body html{
     background-color: lightgray;
 }
 
+
 header{
   text-align: center;
   margin-top: 0;
@@ -37,12 +39,20 @@ header{
 }
 
 /*
+.bg-info{
+    opacity: .5;
+
+} */
+
+
 .pictures{
     height: 300px;
-} */
+} 
 
 /*
 .btn{
     background-color: gray;
 }
 */
+
+

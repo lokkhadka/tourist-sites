@@ -17,59 +17,76 @@
 
 <body>
   <header>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-12">
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-primary">
-      <a class="navbar-brand mb-0" href="#">Manu</a>
+  
+    
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark text-white ">
+        <div class="container">
+      <a class="navbar-brand mb-0 text-white" href="#"> <i class="fas fa-plane"></i>Tourist sites</a>
+    
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
         aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-md-around mx-auto" id="navbarNavAltMarkup">
-        <div class="navbar-nav ">
-          <a class="nav-item nav-link" href="#home">Home
+        <div class="navbar-nav nav-pills  ">
+          <a class="nav-item nav-link mr-8 " href="#home"><i class="fas fa-home"></i>Home
             <span class="sr-only">(current)</span>
           </a>
-          <a class="nav-item nav-link" href="#about">About</a>
-          <a class="nav-item nav-link" href="#photo">photo</a>
-          <a class="nav-item nav-link" href="#nature">Nature</a>
+          <a class="nav-item nav-link mr-8" href="#about"><i class="fas fa-address-book"></i>About</a>
+          <a class="nav-item nav-link  mr-8" href="#photo"><i class="fas fa-camera"></i>Photo</a>
+          <a class="nav-item nav-link  " href="#nature"><i class="fas fa-phone-volume"></i>Contact</a>
         </div>
-        <form class="navbar-form">
+        <form class="navbar-form mr-0">
           <div class="input-group ">
             <input type="text" name="keyword" placeholder="search..." class="form-control">
             <span class="input-group-btn">
-              <button class="btn btn-default btn-warning my-2 my-sm-0">Go</button>
+              <button class="btn btn-default btn-warning my-2 my-sm-0 ">Go</button>
             </span>
           </div>
         </form>
       </div>
+     </div>
     </nav>
-  </div>
-  </div>
-  </div>
-  <div class=" backgroundimg">
-    <div class="container-fluid">
-      <h1 class="display-1 text-center text-white ">Tourist Destination!</h1>
-      <p class="lead text-center text-white">Let me take you to the Himalayan countries</p>
+    
+
+  
+  <div class="jumbotron jumbotron-fluid text-white bg-info">
+      <div class="container text-sm-center pt-5">
+        <h1 class="display-1 text-center text-white border border-default mt-3 ">Tourist Destination!</h1> 
+        <p class="lead text-center text-white"> Don't miss a Deal</p> 
+      </div>
+    </div>
+  </header>
+    <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="card my-3 p-3">
+          <img src="image/city6.jpeg" alt="Beautiful mountain">
+    
+          l
+    </div>
     </div>
   </div>
-</header>
+</div>
+
   
   
    
-  <div class="container">
+  <div class="container pt-2">
     <!-- container -->
+    <div class="row">
+      <div class="col-md">
     <h1 class="text-center">Top Domestic Flights</h1>
     <ul class="list-group">
       <li class="list-group-item list-group-item-success">
         <div class="d-flex justify-content-between">
-          <h5 class="mb-1">Enjoy the Flight!</h5>
-          <span class="badge badge-secondary p-2">Depature</span>
+          <h5 class="my-1">Enjoy the Flight!</h5>
 
-        </div>
-
+          <span class="badge badge-secondary p-2 badge-small">Depature</span>
+          
+         </div>
         <a class="mb-1" href="https://www.yetiairlines.com/">Yati AirLines</a>
+       
 
       </li>
       <li class="list-group-item list-group-item-primary">
@@ -94,12 +111,18 @@
         <a class="mb-1" href="https://www.delta.com/">Delta</a>
       </li>
     </ul>
-  
+  </div>
+
+
+
+  </div>
 
 
     <div class="row">  <!-- 2nd row--> 
       <!-- column layout -->
+      
       <div class="col-md">
+        
         <div class="card my-3 p-3">
           <img class=" card-img-top img-fluid mb-4 rounded pictures" src="image/image25.jpg" alt="Card image cap">
           <div class="card-body">
@@ -130,8 +153,10 @@
           </div>
         </div>
       </div>
+    
       <div class="col-md-3">
-          <form class="form-container rounded-top rounded-bottom">
+         <div class="card my-3 p-3">
+          <form class=" rounded-top rounded-bottom">
               <h4 class="pt-1 text-center text-primary">COMPARE FLIGHT</h4>
                <p class="lead text-center text-info">compare rate for:</p>
               <p class="lead text-center text-danger"><i class="fas fa-plane"></i> ATL - KTM </p>
@@ -139,25 +164,29 @@
                   Compare the sites below:
                 </p>
                 <div class="py-3">
-                  <a href="#" class="btn btn-info btn-block " role="button">Cheap Air</a>
-                  <a href="#" class="btn btn-info btn-block" role="button">Cheap Air</a>
-                  <a href="#" class="btn btn-info btn-block" role="button">Cheap Air</a>
-                  <a href="#" class="btn btn-info btn-block" role="button">Cheap Air</a>
-                  <a href="#" class="btn btn-info btn-block" role="button">Cheap Air</a>
-                  <a href="#" class="btn btn-info btn-block" role="button">Cheap Air</a>
+                  <a href="https://www.travelocity.com/Flights" class="btn btn-info btn-block " role="button">Travelocity</a>
+                  <a href="https://www.cheapoair.com" class="btn btn-info btn-block" role="button">CheapOair</a>
+                  <a href="https://www.orbitz.com/" class="btn btn-info btn-block" role="button">Orbitz</a>
+                  <a href="https://www.cheaptickets.com" class="btn btn-info btn-block" role="button">Cheaptickets</a>
+                  <a href="https://www.kayak.com" class="btn btn-info btn-block" role="button">KAYAK</a>
+                  <a href="https://www.cheapair.com" class="btn btn-info btn-block" role="button">CheapAir</a>
                 </div>
                 <h5 class="text-center text-danger">Select the sites </h5>
               <button type="button" class="btn btn-primary btn-block">Compare</button>
               </form>
+          
        </div>
+      </div>
     </div> <!-- /second row -->
 
     <div class="row"> <!-- third-row-->
+    
       <div class="col-md">
-        <div class="card my-3 p-3  ">
+        
+        <div class="card  mb-3 p-3">
       
           <img class="card-img-top mw-100 picture" src="image/mteverest.jpg" alt="Card image cap">
-        
+          <div class="card-block">
           <div class="card-body">
             <h5 class="card-title text-center">Mt.Everest-Nepal</h5>
             <p>
@@ -169,9 +198,12 @@
           </div>
         </div>
       </div>
+    </div>
+  
       <div class="col-md">
-        <div class="card my-3 p-3">
-          <img class="card-img-top picture" src="image/ilam2.jpg" alt="Card image cap">
+        <div class="card  mb-3 p-3">
+          <img class="card-img-top mw-100 picture" src="image/ilam2.jpg" alt="Card image cap">
+          
           <div class="card-body">
             <h5 class="card-title text-center">Ilam tea Garden-Nepal</h5>
             <p >
@@ -184,9 +216,11 @@
           </div>
         </div>
       </div>
+    
       
       <div class="col-md-3">
-              <form class="form-container rounded-top rounded-bottom">
+              <div class="card mb-3 p-3">
+              <form class= "rounded-top rounded-bottom">
                 <h4 class="pt-3 text-center">Plan Your Trip</h4>
                   <div class="form-group ">
                     <label for="name"></label>
@@ -207,13 +241,13 @@
                       </div>
                   <div class="checkbox">
                     <label>
-                   <input type="checkbox"> Remember Me
+                   <input type="checkbox"> Terms and Conditions
                    </label>
                  </div>
                <button type="submit" class="btn btn-danger btn-block">Get free Quotes</button>
            </form>
+        </div>
       
-    </div>
     </div>
   </div> <!-- /third-row-->
    </div> <!-- /container -->
@@ -225,7 +259,7 @@
             <div class="col-md-12">
               <div class="card my-3">
                 <figure class="p-3">
-                <img class="card-img-top" src="image/city1.jpeg" alt="Card image cap">
+                <img class="card-img-top" src="image/city1.jpeg" alt="A great architecture">
                     <figcaption class="figure-caption">
                       <p class="lead text-center pt-1">One of the great architecture bridge of Bay area,great view!</p>
                     </figcaption>
@@ -242,7 +276,7 @@
             <div class="col-md-4">
               <div class="card my-3 ">
                 <figure class="p-2">
-                <img class="card-img-top" src="image/city2.jpeg" alt="Card image cap">
+                <img class="card-img-top" src="image/city2.jpeg" alt="Bay area image">
                   <figcaption class="figure-caption">
                       <p class="lead text-center pt-1">Bay area with blue Skyview</p>
                     </figcaption>
@@ -309,14 +343,7 @@
           <!-- /-footer -->
 
            
-      
-                             
-           
-            
-          
-             
-    
-  <!-- Optional JavaScript -->
+      <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
