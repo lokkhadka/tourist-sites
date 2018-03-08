@@ -65,7 +65,7 @@
     <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <div class="card my-0 p-1 bg-secondary">
+        <div class="card my-0 p-3">
           <img src="image/city6.jpeg" alt="Beautiful mountain">
           <div class="card-img-overlay">
             <h2 class=" text-center text-white">Sidney is nice place to spend time</h2>
@@ -146,7 +146,7 @@
     
       <div class="col-md">
         
-        <div class="card  mb-4 p-3">
+        <div class="card  my-3 p-3">
       
           <img class="card-img-top mw-100 picture" src="image/mteverest.jpg" alt="Card image cap">
           <div class="card-block">
@@ -164,7 +164,7 @@
     </div>
   
       <div class="col-md">
-        <div class="card  mb-4 p-3">
+        <div class="card  my-3 p-3">
           <img class="card-img-top mw-100 picture" src="image/ilam2.jpg" alt="Card image cap">
           
           <div class="card-body">
@@ -184,36 +184,37 @@
     
       
       <div class="col-md-3">
-              <div class="card mb-3 p-3 bg-success">
+              <div class="card my-3 p-3 bg-success">
               <form class= "rounded-top rounded-bottom">
-                <h4 class="pt-3 text-center">Plan Your Trip</h4>
+                <h4 class=" text-center">Plan Your Trip</h4>
+                <p class="lead text-center">Asia Africa Europe</p>
                   <div class="form-group ">
                     <label for="name"></label>
-                    <input type="Name" class="form-control" id="name" aria-describedby="name" placeholder="FirstName">
+                    <input type="Name" class="form-control" id="name" aria-describedby="name" placeholder="FirstName :">
                     
                   </div>
                   <div class="form-group  ">
                       <label for="lastname"></label>
-                      <input type="Lastname" class="form-control" id="lastname" placeholder="LastName">
+                      <input type="Lastname" class="form-control" id="lastname" placeholder="LastName :">
                     </div>
                   <div class="form-group  ">
                     <label for="email"></label>
-                    <input type="Email" class="form-control" id="email" placeholder="Email">
+                    <input type="Email" class="form-control" id="email" placeholder="Email :">
                   </div>
                   <div class="form-group">
                       <label for="phonenumber"></label>
-                      <input type="PhoneNumber" class="form-control" id="phonenumber" placeholder="PhoneNumber">
+                      <input type="PhoneNumber" class="form-control" id="phonenumber" placeholder="PhoneNumber :">
                     </div>
                     <div class="form-group">
                         <label for="country"></label>
-                        <input type="Country" class="form-control" id="country" placeholder="Country">
+                        <input type="Country" class="form-control" id="country" placeholder="Country :">
                       </div>
                   <div class="checkbox">
                     <label>
                    <input type="checkbox"> Terms and Conditions
                    </label>
                  </div>
-               <button type="button" class="btn btn-danger btn-block" data-toggle="modal" data-target="#register">Get free Quotes</button>
+               <button type="button" class="btn btn-danger btn-block mb-4" data-toggle="modal" data-target="#register">Get free Quotes</button>
            </form>
         </div>
       </div>
@@ -223,7 +224,7 @@
   
    
   <div class="content">
-    <div class="container">
+    <div class="container pt-2">
         <div class="row">
             <div class="col-md-12">
               <div class="card my-3">
@@ -239,9 +240,9 @@
             </div>
           </div>
 
-          <div class="bgcolor">
-        <div class="container">
           
+        <div class="container">
+            <div class="bgcolor"> 
            
         <div class="row">
             <div class="col-md-4">
@@ -282,12 +283,12 @@
                 =====================================-->
                <!---footer -->
           <footer id="main-footer" class="bg-dark">
-            <div class="container">
+            <div class="container my-3">
               <div class="row">
                 <div class="col-md-4">
                   <div class="py-2">
                     <h1 class="text-white navbar-brand navbar-text">Connect With Us</h1>
-                     <ul class="nav flex-column">
+                     <ul class="nav flex-column content-justify-between">                     
                        <li class="nav-item ">
                         <a href="#" class="nav-link navbar-brand text-white"><i class="far fa-address-book mr-1 text-white bg-info"></i>Mobile Apps</a>
                        </li>
@@ -311,8 +312,8 @@
                    
                   <div class="col-md-4">
                     <div class="py-2" >
-                      <h1 class="text-white navbar-brand navbar-text">Languages</h1>
-                      <ul class="nav flex-item ">
+                        <h1 class="text-white navbar-brand navbar-text">Languages</h1>
+                      <ul class="nav flex-item ">             
                          <li class="nav-item">
                           <a href="#" class="nav-link navbar-brand text-white">English | Espanol</a>
                          </li>
@@ -358,42 +359,60 @@
           </footer>
           <!-- /-footer -->
           <!--=====================================
-     FORM MODAL
-    =====================================-->
-    <div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="register form" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Get Free Quotes</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <!-- get free quotes -->
-                <form>
-                    <div class="form-group">
-                      <label for="formGroupExampleInput" for="firstname">FirstName:</label>
-                      <input type="text" class="form-control" id="firstname">
+           FORM MODAL
+           =====================================-->
+            <div class="modal fade" id="register" tabindex="-1" role="dialog" aria-labelledby="register form" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header bg-info text-white">
+                    <h5 class="modal-title" id="exampleModalLabel">Get Free Quotes</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+    <!-- get free quotes -->
+            <form>
+              <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                <strong>Hury Up!</strong> The deal will not last long.
+                  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+            <div class="form-group">
+              <label for="form-control-label" for="firstname">FirstName:</label>
+                <input type="text" class="form-control" id="firstname">
                     </div>
-                    <div class="form-group">
-                      <label for="formGroupExampleInput2">LastName:</label>
-                      <input type="lastname" class="form-control" id="lastname">
-                    </div>
-                    <div class="form-group">
-                        <label for="formGroupExampleInput2">Email:</label>
+                      <div class="form-group">
+                          <label for="form-control-label">LastName:</label>
+                            <input type="lastname" class="form-control" id="lastname">
+                            </div>
+                            <div class="form-group">
+                          <label for="form-control-label">Email:</label>
                         <input type="email" class="form-control" id="email">
                       </div>
-                      <div class="form-group">
-                          <label for="formGroupExampleInput2">PhoneNumber:</label>
-                          <input type="phonenumber" class="form-control" id="phonenumber">
-                        </div>
-                  </form>
-              <!-- /get free quotes-->
+                    <div class="form-group">
+                <label for="form-control-label">PhoneNumber:</label>
+              <input type="phonenumber" class="form-control" id="phonenumber">
             </div>
-          </div>
-        </div>
-      </div>
+              <div class="form-group">
+                  <label for="compare">Compare:</label>
+                    <select class="form-control" id="compare">
+                    <option value="Travelocity">Travelocity</option>
+                    <option value="CheapOair">CheapOair</option>
+                    <option value="Orbitz">Orbitz</option>
+                    <option value="Cheaptickets">Cheaptickets</option>
+                    <option value="Kayak">Kayak</option>
+                    <option value="CheapAir">CheapAir</option>
+                    <option value="CheapAir">CheapAir</option>
+                    </select>
+                    </div>
+                    </form>
+                <!-- /get free quotes-->
+                  </div>
+                </div>
+              </div>
+            </div>
 
            
       <!-- Optional JavaScript -->
