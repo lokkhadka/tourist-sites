@@ -1,3 +1,35 @@
 .im{
     height: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.imm{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+}
+.bg{
+    background-color: lightgray;
+}
+
+.jumbotron{
+    background-image: url(../image/city1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+   
+    background-color: black;
+    opacity:0.5;
+
+}
+
+
+
+
+@media only screen and (max-width:768px){
+    .imm{
+        line-height: 100%;
+        width: 100%;
+    }
+    .jumbotron{
+        width: 100%;
+    }
 }

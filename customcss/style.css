@@ -69,6 +69,12 @@ header{
 
 }
 
+.circle-icon {
+    background: #ffc0c0;
+    padding:10px;
+    border-radius: 50%;
+}
+
 
 
 

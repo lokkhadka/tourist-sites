@@ -34,5 +34,3 @@ function displayclock(){
 }
 
 
-
-alert("hey, guys welcome to my sites!");
