@@ -11,25 +11,30 @@
 }
 
 .jumbotron{
-    background-image: url(../image/city1.jpeg);
+    background-image: url(../image/pic1.jpeg);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
+    height: 100%;
     width: 100%;
    
-    background-color: black;
-    background: rgba(0, 0, 0, 0.8);
-    color: #f1f1f1;
-    opacity: 0.8;
-
 }
 .el{
     height: 82px;
     width: 140px;
 }
 .ell{
-    height: 220px;
+    height: 200px;
     width: 140px;
 }
+
+els{
+    height: 180px;
+    width: 140px;
+}
+
+
+
 
 
 
@@ -45,6 +50,7 @@
     .el{
         height: 100%;
         width: 100%;
+        margin-right:20px;
     }
     .ell{
         height: 100%;
