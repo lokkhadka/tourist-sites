@@ -1,0 +1,6 @@
+.jumbotron{
+    background-image: url(../image/beach1.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

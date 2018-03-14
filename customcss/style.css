@@ -5,7 +5,7 @@ body html{
 }
 
 .jumbotron{
-    background-image: url('../image/image1.PNG');
+    background-image: url('../image/pic1.jpeg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -66,6 +66,12 @@ header{
     border-radius: 50%;
 }
 
+.circle-icon-1 {
+    
+    padding:15px;
+    border-radius: 50%;
+}
+
 .imz{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
 }
@@ -122,6 +128,11 @@ header{
        .jumbotron{
            height: 100%;
            width: 100%;
+       }
+
+       .sm{
+           margin-bottom: 10px;
+           display: block;
        }
       
 
