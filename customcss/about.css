@@ -16,7 +16,6 @@ body{
 .bg{
     background-color: lightgray;
 }
-
 .jumbotron{
     background-image: url(../image/image25.jpg);
     background-repeat: no-repeat;
@@ -42,6 +41,15 @@ els{
 
 
 
+
+@media only screen and (max-width:480px){
+    .card{
+        margin-right:15px;
+    }
+    .el .imm{
+        margin-right: 15px;
+    }
+}
 
 
 
