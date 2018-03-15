@@ -1,4 +1,6 @@
-setInterval(displayclock,1000);
+
+
+setInterval(displayclock,5000);
 function displayclock(){
     var time = new date();
     var hrs = time.getHours();
@@ -30,7 +32,9 @@ function displayclock(){
         sec = '0' + sec;
      }
 
-    document.getElementById("clock").innerHTML = hrs + ':' + min + ':' + sec + ' ' + ekta;
-}
+    document.getElementById("clock").innerHTML = hrs + ":" + min + ":" + sec + ":" + ekta;
+};
+showTime();
+
 
 

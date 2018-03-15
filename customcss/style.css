@@ -23,6 +23,7 @@ body html{
 #clock{
     width: 10px;
     font-size: 20px;
+    color: white;
 }
 
 /*.content{
@@ -74,7 +75,7 @@ header{
 
 .circle-icon-2 {
     
-    padding:8px;
+    padding:6px;
     border-radius: 50%;
 }
 
@@ -109,6 +110,34 @@ header{
 }
 
 
+@media only screen and (max-width:480px){
+ .jumbotron{
+     width: 100%;
+     height: 100%;
+ }
+ .xyzz{
+     font-size: 1em;
+ }
+.cp{
+    
+    font-size: 16px;
+}
+
+.footer-3  li a  {
+    text-align: center;
+    font-size: 14px;
+
+}
+.card{
+    margin-right: 15px;
+ 
+}
+
+
+}
+
+
+
 
 @media only screen and (max-width:768px){
        .xyz,.druck{
@@ -140,8 +169,20 @@ header{
            margin-bottom: 10px;
            display: block;
        }
+       .sy{
+           font-size: 10px;
+            margin-bottom: 1px;
+           text-align: right;
+           display: block;
+       }
       
 
 }
 
+
+
+
+@media only screen and (min-width:1024px){
+
+}
 

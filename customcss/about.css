@@ -1,3 +1,10 @@
+
+
+body{
+ margin: 0;
+ padding: 0;
+}
+
 .im{
     height: 400px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -11,12 +18,11 @@
 }
 
 .jumbotron{
-    background-image: url(../image/pic1.jpeg);
+    background-image: url(../image/image25.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 100%;
-    width: 100%;
+   height: 400px;
    
 }
 .el{
