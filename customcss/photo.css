@@ -1,21 +1,12 @@
 
 
-/*.sidebar{
-    margin-bottom: 10px;
-    min-height: 150px;
-    background-color: silver;
-    text-align: center;
-    font-size: large;
-}*/
 
-
-.maincontent{
-    margin-bottom: 10px;
-    min-height: 310px;
-    background-color: silver;
-    text-align: center;
-    font-size: large;
+body{
+    margin: 0;
+    padding: 0;
 }
+
+
 
 .text-animation{
     list-style: none;
@@ -72,7 +63,14 @@
 }
 
 #mainImg{
-    height: 300px;
-    width: 621px;
+    height: 350px;
+    width: 726px;
     border: 3px solid gray;
 }
+
+.circle-icon {
+    background: #ffc0c0;
+    padding:10px;
+    border-radius: 50%;
+}
+

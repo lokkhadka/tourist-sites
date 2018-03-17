@@ -38,6 +38,11 @@ els{
     width: 140px;
 }
 
+.circle-icon {
+    background: #ffc0c0;
+    padding:10px;
+    border-radius: 50%;
+}
 
 
 
