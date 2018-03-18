@@ -16,7 +16,7 @@ body{
 .bg{
     background-color: lightgray;
 }
-.jumbotron{
+/*.jumbotron{
     background-image: url(../image/pic1.jpeg);
     background-repeat: no-repeat;
     background-position: center;
@@ -24,6 +24,7 @@ body{
    height: 400px;
    
 }
+*/
 .el{
     height: 82px;
     width: 140px;
@@ -54,6 +55,15 @@ els{
     .el .imm{
         margin-right: 15px;
     }
+    .spy{
+       font-size: 18px;
+    }
+    .nav{
+        display: block;
+        margin-right: 2px;
+        padding: 5px;
+
+    }
 }
 
 
@@ -74,5 +84,14 @@ els{
     .ell{
         height: 100%;
         width: 100%;
+    }
+    .spy{
+        font-size: 20px;
+    }
+    .nav{
+        display: block;
+        margin-right: 2px;
+        padding: 5px;
+
     }
 }
