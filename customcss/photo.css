@@ -49,23 +49,20 @@ body{
 
 
 
-.big-icon {
-    font-size: 50px;
-    margin-bottom: 20px;
-}
-
 
 
 .imgstyle{
     height: 100px;
     width: 100px;
     border: 3px solid gray;
+   
 }
 
 #mainImg{
     height: 350px;
     width: 726px;
     border: 3px solid gray;
+    margin-left: 20%;
 }
 
 .circle-icon {
@@ -74,3 +71,47 @@ body{
     border-radius: 50%;
 }
 
+#divContainer{
+    margin-left: 20%;
+}
+
+
+
+
+
+@media only screen and (max-width:480px){
+    
+    .nav{
+        display: block;
+        margin-right: 2px;
+        padding: 5px;
+
+    }
+    #mainImg{
+        height: 100px;
+        width: 200px;
+        margin-left: 30px;
+        margin-right: 5px;
+    }
+    
+    .imgstyle{
+        height: 20px;
+        width: 65px;
+        display: inline-block;
+    }
+
+    #divContainer{
+        width: 300px;
+        margin-left:30px;
+        margin-right: 20px;
+    }
+    
+    
+    
+    .jumbotron{
+        font-size: 3px;
+        height: 100px;
+        width: 100%;
+        text-align: center;
+    }
+}
