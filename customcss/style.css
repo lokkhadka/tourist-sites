@@ -179,14 +179,40 @@ header{
            text-align: right;
            display: block;
        }
-      
+      .card{
+          height: 100%;
+          margin-top: 5px;
+          margin-bottom: 5px;
+      }
+      .pictures{
+          height: 150px;
+      }
+      .picture{
+          height: 150px;
+      }
+      .get{
+          font-size: 13px;
+      }
+      .ph{
+          font-size: 13px;
+      }
 
 }
 
 
 
 
-@media only screen and (min-width:1024px){
-
+@media only screen and (max-width:1024px){
+  .smt{
+      margin-top: 5px;
+  }
+  .card{
+      height: 100%;
+      margin-bottom: 10px;
+  }
+  .jumbotron{
+      height: 100%;
+      width: 100%;
+  }
 }
 
