@@ -122,14 +122,19 @@ els{
         width: 100%;
     }
     .el{
-        height: 100%;
-        width: 100%;
-        margin-right:20px;
+        
+        width: 50px;
+    
     }
-    .ell{
-        height: 100%;
-        width: 100%;
+
+    
+
+    .card-3{
+       width: 110px;
+       
+
     }
+    
     .spy{
         font-size: 20px;
     }
@@ -159,11 +164,7 @@ els{
         width: 80px;
     
     }
-    .ell{
-        height: 150px;
-        width: 100%;
     
-    }
     .jumbotron{
         height: 100%;
     }
