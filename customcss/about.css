@@ -63,9 +63,7 @@ els{
 
 
 @media only screen and (max-width:480px){
-    .card{
-        margin-right:15px;
-    }
+    
     .el .imm{
         margin-right: 15px;
     }
@@ -86,7 +84,7 @@ els{
     }
     .ell{
         height: 110px;
-        width: 100px;
+    
         margin-left:70px;
         margin-top: 20px;
         
@@ -109,6 +107,12 @@ els{
     .els{
         width: 100%;
     }
+    .jumbotron{
+        height: 100%;
+        width: 100%;
+        
+    }
+   
 }
 
 
@@ -193,6 +197,7 @@ els{
 
 .jumbotron{
     height: 100%;
+    width: 100%;
 }
 
 
