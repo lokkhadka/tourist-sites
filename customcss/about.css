@@ -76,6 +76,9 @@ els{
         padding: 5px;
 
     }
+    .card-3{
+        width: 150px;
+    }
    
 
     .footer-3 li a{
@@ -110,7 +113,7 @@ els{
     .jumbotron{
         height: 100%;
         width: 100%;
-        
+
     }
    
 }
