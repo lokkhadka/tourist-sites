@@ -79,6 +79,10 @@ els{
     .card-3{
         width: 150px;
     }
+
+    .next-row{
+        float: left;
+    }
    
 
     .footer-3 li a{
@@ -201,6 +205,10 @@ els{
 .jumbotron{
     height: 100%;
     width: 100%;
+}
+
+#cardLonger {
+    padding-bottom: 7em!important;
 }
 
 
