@@ -1,0 +1,240 @@
+
+
+body{
+ margin: 0;
+ padding: 0;
+}
+
+.jumbotron{
+    background-image: url(../image/beach1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+}
+
+.im{
+    height: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.imm{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);   
+}
+.bg{
+    background-color: lightgray;
+}
+/*.jumbotron{
+    background-image: url(../image/pic1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   height: 400px;
+   
+}
+*/
+.el{
+    height: 82px;
+    width: 140px;
+}
+.ell{
+    height: 200px;
+    width: 140px;
+}
+
+els{
+    height: 180px;
+    width: 140px;
+}
+
+.circle-icon {
+    background: #ffc0c0;
+    padding:10px;
+    border-radius: 50%;
+}
+
+.container{
+   margin-bottom: 5px;
+   
+}
+/*
+ .nav-bar ul{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding:20px;
+    text-align: center;
+    color: white;
+
+}
+
+ .nav-bar  ul li{
+    list-style-type: none;
+    display: inline;
+    margin-right: 10px;
+    color: white;
+    padding: 5px;
+    
+}
+
+.nav-bar ul li a{
+    color: blue;
+}
+*/
+
+
+
+
+
+
+
+
+@media only screen and (max-width:480px){
+    
+    .el .imm{
+        margin-right: 15px;
+    }
+    .spy{
+       font-size: 18px;
+    }
+    .nav{
+        display: block;
+        margin-right: 2px;
+        padding: 5px;
+
+    }
+    .card-3{
+        width: 150px;
+    }
+
+    
+   
+
+    .footer-3 li a{
+        text-align: center;
+        font-size: 14px;
+    }
+    .ell{
+        height: 110px;
+    
+        margin-left:70px;
+        margin-top: 20px;
+        
+    }
+    .min{
+        font-size: 16px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .mins{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .el{
+        margin-left: 70px;
+        margin-bottom: 10px;
+        width: 110px;
+
+    }
+
+    .els{
+        width: 100%;
+    }
+    .jumbotron{
+        height: 100%;
+        width: 100%;
+
+    }
+   
+}
+
+
+
+@media only screen and (max-width:768px){
+    .imm{
+        line-height: 100%;
+        width: 100%;
+    }
+    .jumbotron{
+        width: 100%;
+    }
+    .el{
+        
+        width: 50px;
+    
+    }
+
+    
+
+    .card-3{
+       width: 110px;
+       
+
+    }
+    
+    .spy{
+        font-size: 20px;
+    }
+    .nav{
+        display: block;
+        margin-right: 2px;
+        padding: 5px;
+
+    }
+     .min{
+         font-size: 14px;
+         letter-spacing: normal;
+     }
+     .mins{
+         font-size: 10px;
+         text-align: center;
+         padding-left: 2px;
+     }
+    
+    .card{
+        height: 90%;
+        margin-bottom: 10px;
+    
+    }
+    .el{
+        height: 82px;
+        width: 80px;
+    
+    }
+    
+    .jumbotron{
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width:1024px){
+
+.el{
+    height: 85px;
+    width: 110px;
+
+}
+
+.ell{
+    height: 180px;
+    width: 115px;
+
+}
+.minss{
+    font-size: 20px;
+}
+.mins{
+    text-align: center;
+    padding-left: 3px;
+}
+
+.jumbotron{
+    height: 100%;
+    width: 100%;
+}
+
+#cardLonger {
+    padding-bottom: 7em!important;
+}
+
+
+}

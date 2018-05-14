@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="customcss/photo.css" type="text/css">
+    <link rel="stylesheet" href="fontawesome/css/fontawesome-all.min.css">
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/photojquery.js"></script>
+    <script src="photoscript/script.js"></script>
+    <title>gallary</title>
+  </head>
+  <body>
+      <header>
+          <div class="jumbotron jumbotron-fluid bg-dark">
+            <ul class="text-animation hidden">
+                <li>W</li>
+                <li>E</li>
+                <li>L</li>
+                <li>C</li>
+                <li>O</li>
+                <li>M</li>
+                <li>E</li>
+            </ul>
+          </div>
+      </header>
+      <script>
+          $(function() {
+    setTimeout(function() {
+     $('.text-animation').removeClass('hidden')
+    },500);
+}) ();
+
+      </script>
+
+      <script>
+          $(document).ready(function(){
+   $('#divContainer img').on({
+       mouseover : function(){
+           $(this).css({
+               'curser': 'pointer',
+               'border-color': 'red'
+           });
+       },
+       mouseout : function(){
+        $(this).css({
+            'curser': 'default',
+            'border-color': 'grey'
+        });  
+       },
+       click : function(){
+           var imageUrl = $(this).attr('src');
+           $('#mainImg').attr('src',imageUrl);
+               
+        
+       }
+   });
+});
+      </script>
+
+
+
+     
+      
+    <img id="mainImg" src="image/bird.jpeg">
+          <br />
+          <div id="divContainer">
+              <img class="imgstyle" src="image/bird.jpeg">
+              <img class="imgstyle" src="image/hill1.jpeg">
+              <img class="imgstyle" src="image/bird.jpeg">
+              <img class="imgstyle" src="image/ilam2.jpg">
+              <img class="imgstyle" src="image/ilam.png">
+              <img class="imgstyle " src="image/jet.jpg">
+              <img class="imgstyle" src="image/jet.jpg">
+          
+            </div>
+               
+            <div id="clock">12:02:2</div>
+
+            <script>
+                 function showTime(){
+                   var date = new date();
+                   var h = date.getHours();
+                   var m = date.getMinutes();
+                   var s = date.getSeconds();
+
+                   var time = h + ":" + m + ":" + s;
+                   document.getElementById("clock").innerText = time;
+                   document.getElementById("clock").textContent = time;
+
+                   setTimeout(showTime, 1000);
+                 }
+              </script>
+              
+              
+                
+
+     
+                <!--=====================================
+                    FOOTER  
+                =====================================-->
+               <!---footer -->
+               <footer id="main-footer" class="bg-dark">
+                    <div class="container my-3">
+                      <div class="row">
+                        <div class="col-md-4">
+                          <div class="py-2">
+                          
+                             <ul class="nav d-block justify-content-between footer-3"> 
+                                <h5 class="text-white">Connect With Us:</h5>                    
+                               <li class="nav-item ">
+                                <a href="#" class="nav-link navbar-brand text-white"><i class="far fa-address-book mr-1 text-white bg-info"></i>Mobile Apps</a>
+                               </li>
+                               <li class="nav-item">
+                                <a  href="#" class="nav-link navbar-brand text-white"><i class="fab fa-facebook-square mr-1 text-white bg-info "></i>Facebook</a>
+                               </li>
+                               <li class="nav-item">
+                                 <a href="#" class="nav-link navbar-brand text-white"><i class="fab fa-twitter-square mr-1 bg-info text-white"></i>Twitter</a>
+                               </li>
+                               <li class="nav-item">
+                                 <a href="#" class="nav-link navbar-brand text-white"><i class="fab fa-blogger mr-1 bg-info text-white"></i>Blog</a>
+                               </li>
+                               <li class="nav-item">
+                                 <a href="#" class="nav-link  navbar-brand text-white"><i class="fas fa-envelope-open mr-1 bg-info text-white"></i>Mail</a>
+                               </li>
+                              </ul>
+                          </div>                
+                        </div>
+                      
+        
+                           
+                          <div class="col-md-4">
+                            <div class="py-2" >
+                              
+                              <ul class="nav flex-column justify-content-between footer-3"> 
+                                  <h5 class="text-white">Languages:</h5>            
+                                 <li class="nav-item">
+                                  <a href="#" class="nav-link navbar-brand navbar-text text-white">English | Espanol</a>
+                                 </li>
+                                 <li class="nav-item">
+                                   <a href="#" class="nav-link  navbar-brand navbar-text text-white">Portugues | English</a>
+                                 </li>
+                                 <li class="nav-item">
+                                   <a  href="#" class="nav-link navbar-brand navbar-text text-white">Chinese | English</a>
+                                 </li>
+                                 <li class="nav-item">
+                                   <a href="#" class="nav-link navbar-brand navbar-text text-white">Korian | English</a>
+                                 </li>
+                                 <li class="nav-item">
+                                   <a href="#" class="nav-link navbar-brand navbar-text text-white">Deutsch | English</a>
+                                 </li>
+                               </ul>
+                            </div>
+                          </div>
+        
+                          <div class="col-md-2">
+                              <div class="py-2">                      
+                                 <ul class="nav flex-column footer-3">
+                                    <h5 class="text-white">Need Help?</h5>
+                                   <li class="nav-item">
+                                     <a href="#" class="nav-link navbar-brand navbar-text text-white">Email Us</a>
+                                   </li>
+                                   <li class="nav-item">
+                                     <a href="#" class="nav-link navbar-brand navbar-text text-white">Talk To Us</a>
+                                   </li>
+                                   <li class="nav-item">
+                                     <a href="#" class="nav-link navbar-brand  navbar-text text-white">Tweet Us</a>
+                                   </li>
+                                   <li class="nav-item">
+                                     <a href="#" class="nav-link navbar-brand  navbar-text text-white mb-2">Login Help</a>
+                                   </li>
+                                 </ul>
+                              </div>
+                            </div>
+                             <div class="col-md-2">
+                               <div class="py-2">
+                                 <ul class="nav justify-content-end footer-3">
+                                    <h5 class="text-white">Follow Us:</h5>
+                                  <li class="nav-item con">
+                                      <a href="#" class="nav-link navbar-brand"><i class="fab fa-facebook-square  circle-icon  text-white bg-info"></i></a>
+                                 </li>
+                                   <li class="nav-item">
+                                      <a href="#" class="nav-link navbar-brand"><i class="fab fa-twitter-square  circle-icon  text-white bg-info"></i></a>
+                                   </li>
+                                   <li class="nav-item">
+                                      <a href="#" class="nav-link navbar-brand"><i class="fas fa-envelope-open  circle-icon  text-white bg-info"></i></a>
+                                   </li>
+                                   <li class="nav-item">
+                                     <a href="#" class="nav-link navbar-brand"><i class="fab fa-blogger  circle-icon  text-white bg-info"></i></a>
+                                  </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                        
+                    </div>
+                    <p class="lead text-center text-white mt-2 pb-2 bg-primary cp"> Copyright&:2018 Tourist sites, Inc.</p>
+                   </footer>
+                  <!-- /-footer -->
+
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
+  </body>
+</html>

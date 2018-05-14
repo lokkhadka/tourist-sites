@@ -1,0 +1,117 @@
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.text-animation{
+    list-style: none;
+    position: absolute;
+    left: 50%;
+    top:8%;
+    transform: translateX(-50%) translateY(-50%);
+
+}
+
+.text-animation li{
+    display: inline-block;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4em;
+    font-weight: 300;
+    color:white;
+    opacity: 1;
+    transition: all 2.5s ease;
+    text-align: center;
+}
+
+.text-animation li:last-child{
+   margin-right: 0;
+}
+
+.text-animation .hidden li{
+    opacity: 0;
+
+}
+
+.text-animation.hidden li:nth-child(1) {transform: translateX(-200px) translateY(-200px);}
+.text-animation.hidden li:nth-child(2) {transform: translateX( 20px) translateY( 100px);}
+.text-animation.hidden li:nth-child(3) {transform: translateX(-150px) translateY( -80px);}
+.text-animation.hidden li:nth-child(4) {transform: translateX( 10px) translateY( 200px);}
+.text-animation.hidden li:nth-child(5) {transform: translateX(-150px) translateY(-80px);}
+.text-animation.hidden li:nth-child(6) {transform: translateX(10px) translateY( 200px);}
+.text-animation.hidden li:nth-child(7) {transform: translateX(50px) translateY(100px);}
+
+
+
+
+
+
+.imgstyle{
+    height: 100px;
+    width: 100px;
+    border: 3px solid gray;
+   
+}
+
+#mainImg{
+    height: 350px;
+    width: 726px;
+    border: 3px solid gray;
+    margin-left: 20%;
+}
+
+.circle-icon {
+    background: #ffc0c0;
+    padding:10px;
+    border-radius: 50%;
+}
+
+#divContainer{
+    margin-left: 20%;
+}
+
+
+
+
+
+@media only screen and (max-width:480px){
+    
+    .nav{
+        display: block;
+        margin-right: 2px;
+        padding: 5px;
+
+    }
+    #mainImg{
+        height: 100px;
+        width: 200px;
+        margin-left: 30px;
+        margin-right: 5px;
+    }
+    
+    .imgstyle{
+        height: 20px;
+        width: 65px;
+        display: inline-block;
+    }
+
+    #divContainer{
+        width: 300px;
+        margin-left:30px;
+        margin-right: 20px;
+    }
+    
+    
+    
+    .jumbotron{
+        font-size: 3px;
+        height: 100px;
+        width: 100%;
+        text-align: center;
+    }
+}
