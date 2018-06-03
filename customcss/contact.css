@@ -101,6 +101,10 @@ body {
   .lrg{
       font-size: 20px;
   }
+
+  .lge{
+      font-size: 30px;
+  }
   
   @media(min-width:768px) {
     #wrapper {
