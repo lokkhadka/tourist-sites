@@ -1,2 +1,9 @@
 [0318/112407.117:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: The pipe has been ended. (0x6D)
 [0601/173508.439:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0602/111650.811:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0602/130230.640:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0602/134807.356:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0602/193123.257:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0602/195418.685:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0602/195440.970:ERROR:crash_report_database_win.cc(428)] unexpected header
+[0602/202810.866:ERROR:crash_report_database_win.cc(428)] unexpected header
