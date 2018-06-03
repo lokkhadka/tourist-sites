@@ -56,11 +56,13 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
+  
   }
   
   .sidebar-nav li {
     text-indent: 20px;
     line-height: 40px;
+    
   }
   
   .sidebar-nav li a {
@@ -94,6 +96,8 @@ body {
     background: none;
   }
 
+ 
+
   .bg{
       background: gray;
   }
@@ -105,6 +109,28 @@ body {
   .lge{
       font-size: 30px;
   }
+
+ .p{
+   border: 2px solid black;
+   width: 100%;
+   padding: 10px;
+   margin: 0;
+   height: 50px;
+   background: lightgray;
+ }
+
+ .bgc{
+   height: 10px;
+   width: 30px;
+   color: black;
+ }
+
+ .bge{
+   color: black;
+   float: right;
+   margin-right: 20px;
+ }
+
   
   @media(min-width:768px) {
     #wrapper {
